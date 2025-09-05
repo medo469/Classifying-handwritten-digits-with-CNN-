@@ -1,23 +1,23 @@
 # MNIST Handwritten Digits Classification Project
 
-## 📝 Project Overview
+## Project Overview
 This project demonstrates a complete machine learning pipeline for classifying handwritten digits using the MNIST dataset. We compare traditional ML approaches (Logistic Regression) with deep learning methods (Convolutional Neural Networks).
 
-## 🎯 Objectives
+## Objectives
 1. **Data Loading & Preprocessing**: Load MNIST dataset and normalize pixel values
 2. **Baseline Model**: Train a Logistic Regression model as our baseline
 3. **Deep Learning Model**: Build and train a CNN for improved performance
 4. **Model Comparison**: Evaluate and compare both approaches
 5. **Ethics & Reflection**: Discuss AI model limitations and deployment considerations
 
-## 📊 Dataset Information
+## Dataset Information
 - **Source**: MNIST (Modified National Institute of Standards and Technology)
 - **Size**: 70,000 images (60,000 training + 10,000 testing)
 - **Image Format**: 28x28 pixels, grayscale
 - **Classes**: 10 digits (0-9)
 - **Built-in**: Available directly through TensorFlow/Keras
 
-## 🛠️ Requirements
+## Requirements
 ### Required Libraries
 ```bash
 pip install tensorflow>=2.8.0
@@ -33,7 +33,7 @@ pip install pandas>=1.3.0
 conda install tensorflow scikit-learn matplotlib seaborn numpy pandas
 ```
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### Option 1: Jupyter Notebook (Recommended)
 1. **Install Jupyter** (if not already installed):
@@ -68,14 +68,14 @@ conda install tensorflow scikit-learn matplotlib seaborn numpy pandas
 2. All required libraries are pre-installed in Colab
 3. Run cells directly in the cloud environment
 
-## 📁 Project Structure
+##  Project Structure
 ```
 ├── ai_ml_assignment.ipynb    # Main Jupyter notebook with complete implementation
 ├── README.md                 # This file - project documentation
 └── (generated files)         # Model files and outputs created during execution
 ```
 
-## 🔍 What You'll Find in the Notebook
+##  What You'll Find in the Notebook
 
 ### 1. Data Loading & Preprocessing
 - MNIST dataset loading using TensorFlow/Keras
@@ -107,24 +107,24 @@ conda install tensorflow scikit-learn matplotlib seaborn numpy pandas
 - Strategies for ensuring fairness and reliability
 - Best practices for responsible AI development
 
-## 📈 Expected Results
+##  Expected Results
 - **Logistic Regression**: ~92-95% accuracy
 - **CNN**: ~98-99% accuracy
 - **Improvement**: ~3-7 percentage points
 
-## ⏱️ Runtime Expectations
+##  Runtime Expectations
 - **Data loading**: 1-2 minutes
 - **Logistic Regression training**: 2-3 minutes
 - **CNN training**: 10-15 minutes (depending on hardware)
 - **Total runtime**: ~20-25 minutes
 
-## 🖥️ System Requirements
+##  System Requirements
 - **Minimum RAM**: 4GB (8GB recommended)
 - **Python**: 3.7 or higher
 - **GPU**: Optional but recommended for faster CNN training
 - **Disk Space**: ~500MB for datasets and dependencies
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues & Solutions
 
@@ -149,7 +149,7 @@ conda install tensorflow scikit-learn matplotlib seaborn numpy pandas
    pip install -r requirements.txt  # if you create one
    ```
 
-## 📚 Learning Outcomes
+##  Learning Outcomes
 After completing this project, you will understand:
 - Traditional ML vs Deep Learning approaches
 - CNN architecture for image classification
@@ -157,20 +157,16 @@ After completing this project, you will understand:
 - Ethical considerations in AI deployment
 - Best practices for ML project documentation
 
-## 🤝 Contributing
+##  Contributing
 Feel free to suggest improvements or report issues. This project is designed for educational purposes and welcomes contributions to enhance learning.
 
-## 📄 License
+##  License
 This project is for educational purposes. The MNIST dataset is publicly available and free to use.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 - MNIST dataset creators at NIST
 - TensorFlow and Keras development teams
 - Scikit-learn contributors
 - Open source ML/AI community
 
 ---
-
-**Note**: This project is designed as a learning exercise to understand fundamental concepts in machine learning and deep learning. The code includes detailed comments and explanations to facilitate understanding.
-
-For questions or issues, please refer to the notebook comments or create an issue in the project repository.
